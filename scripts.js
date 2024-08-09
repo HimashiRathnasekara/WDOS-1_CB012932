@@ -106,8 +106,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     
-    if (buyNowButton) {
-        buyNowButton.addEventListener("click", function() {
+    if (buynoebtn) {
+        buynoebtn.addEventListener("click", function() {
             
             const name = document.getElementById('name').value.trim();
             const address = document.getElementById('address').value.trim();
